@@ -1,5 +1,5 @@
 const BLOG = require('./blog.config')
-const { fontFamilies } = require('./lib/font')
+const { fontFamilies } = require('./lib/utils/font')
 
 module.exports = {
   content: [
@@ -20,9 +20,7 @@ module.exports = {
       // => @media (min-width: 992px) { ... }
       xl: '1140px',
       // => @media (min-width: 1200px) { ... }
-      '2xl': '1320px',
-      // => @media (min-width: 1400px) { ... }
-      '3xl': '1920px'
+      '2xl': '1536px'
     },
     container: {
       center: true,
